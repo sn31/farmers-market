@@ -287,6 +287,12 @@ function ProduceList() {
     <div>
       <h3>Produce Availability</h3>
       {availList}
+      <style jsx>
+      {`
+      div {
+          margin-left: 1em;
+      }
+      `}</style>
     </div>
   )
 }

@@ -6,11 +6,11 @@ function Produce(props) {
 
   props.selection.map((produce, index)=>
     produceList.push(
-      <li key={index}>{produce}</li>))
+      <span key={index}>{produce}&nbsp;&nbsp;</span>))
   return (
     <div>
       <h5>{props.month}</h5>
-      <ul>{produceList}</ul>
+      <p>{produceList}</p>
     </div>
   )
 }
