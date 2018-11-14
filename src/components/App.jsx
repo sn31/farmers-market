@@ -1,6 +1,6 @@
-import React from "react";
-import NavBar from "./NavBar";
-import MainContainer from "./MainContainer";
+import React from 'react'
+import NavBar from './NavBar'
+import MainContainer from './MainContainer'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       `}
       </style>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

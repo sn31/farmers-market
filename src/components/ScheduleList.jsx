@@ -54,7 +54,12 @@ function ScheduleList() {
     )
   )
 
-  return <div>{scheduleList}</div>
+  return (
+    <div>
+      <h3>Schedule</h3>
+      {scheduleList}
+    </div>
+  )
 }
 
 export default ScheduleList
