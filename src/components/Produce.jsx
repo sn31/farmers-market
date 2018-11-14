@@ -9,8 +9,8 @@ function Produce(props) {
       <span key={index}>{produce}&nbsp;&nbsp;</span>))
   return (
     <div>
-      <h5>{props.month}</h5>
-      <p>{produceList}</p>
+      <h5 style={{color: '#477537'}}>{props.month}</h5>
+      <p>{produceList}</p><hr/>
     </div>
   )
 }

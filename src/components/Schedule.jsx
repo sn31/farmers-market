@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function Schedule(props) {
   return(
     <div>
-      <h5>{props.day}</h5>
+      <h4 style={{color: '#561337'}}>{props.day}</h4>
       <p>{props.location}</p>
       <p>{props.hours}</p>
       <p>{props.booth}</p>
