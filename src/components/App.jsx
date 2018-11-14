@@ -6,12 +6,18 @@ function App() {
   return (
     <div>
       <table>
-        <tr>
-          <NavBar />
-        </tr>
-        <tr>
-          <MainContainer />
-        </tr>
+        <tbody>
+          <tr>
+            <td>
+              <NavBar />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <MainContainer />
+            </td>
+          </tr>
+        </tbody>
       </table>
       <style jsx>
         {`

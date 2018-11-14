@@ -4,10 +4,20 @@ import ProduceList from './ProduceList'
 
 function MainContainer() {
   return (
-    <div>
-      <ScheduleList/>
-      <ProduceList/>
-    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <ScheduleList />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <ProduceList />
+          </td>
+        </tr>
+      </tbody>
+    </table>
   )
 }
 

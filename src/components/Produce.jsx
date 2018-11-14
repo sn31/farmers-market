@@ -4,13 +4,13 @@ import PropTypes from 'prop-types'
 function Produce(props) {
   let produceList =[]
 
-  props.selection.map((produce)=>
+  props.selection.map((produce, index)=>
     produceList.push(
-      <p>{produce}</p>))
+      <li key={index}>{produce}</li>))
   return (
     <div>
       <h5>{props.month}</h5>
-      <p>{produceList}</p>
+      <ul>{produceList}</ul>
     </div>
   )
 }
