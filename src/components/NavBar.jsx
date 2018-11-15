@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <ul>
@@ -14,12 +14,11 @@ function NavBar() {
           display: inline-block;
           float: left;
           margin-right: 1em;
-        }
+        },
         `}</style>
-      <li>About Us</li>
-      <li>Schedule</li>
-      <li>Produce</li>
-      <li>Contact</li>
+      <li><Link to="/">About Us</Link></li>
+      <li><Link to="/schedule">Schedule</Link></li>
+      <li><Link to="/produce">Produce</Link></li>
     </ul>
   )
 }
