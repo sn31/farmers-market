@@ -47,6 +47,15 @@ module.exports = {
           presets: [["es2015", { modules: false }], "react"],
           plugins: ["react-hot-loader/babel", "styled-jsx/babel"]
         }
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {}
+          }
+        ]
       }
     ]
   },

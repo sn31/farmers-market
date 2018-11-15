@@ -1,6 +1,6 @@
-import React from "react";
-import ScheduleList from "./ScheduleList";
-import ProduceList from "./ProduceList";
+import React from 'react'
+import ScheduleList from './ScheduleList'
+import ProduceList from './ProduceList'
 
 function MainContainer() {
   return (
@@ -26,7 +26,7 @@ function MainContainer() {
 
       `}</style>
     </div>
-  );
+  )
 }
 
-export default MainContainer;
+export default MainContainer
