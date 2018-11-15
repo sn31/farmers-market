@@ -16,7 +16,7 @@ function NavBar() {
           margin-right: 1em;
         },
         `}</style>
-      <li><Link to="/">About Us</Link></li>
+      <li><Link to="/">Home</Link></li>
       <li><Link to="/schedule">Schedule</Link></li>
       <li><Link to="/produce">Produce</Link></li>
     </ul>
